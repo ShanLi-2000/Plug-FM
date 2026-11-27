@@ -1,0 +1,14 @@
+{
+  "dataset_repo": "BerkIGuler/ContraWiMAEDataset",
+  "revision": "0373102eafb5f908cab031b13faac93b8c9ca740",
+  "path": "sub6/task/train/city_29_centro_3p5_bs000.npz",
+  "sha256": "074b0f21f9f2e868e619f438b332eb146e2a8828fb5d2d41d808722eb6d6b75a",
+  "split_seed": 20261028,
+  "split_counts": {
+    "train": 8192,
+    "val": 2048,
+    "test": 2048
+  },
+  "reference_power": 760.7671195350032,
+  "layout": "time8_freq4"
+}

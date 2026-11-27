@@ -1,0 +1,439 @@
+{
+  "format": "plugfm-release-v1",
+  "files": [
+    {
+      "file": "checkpoints/teachers/contrawimae.pt",
+      "bytes": 2349229,
+      "sha256": "21ba856fec796d5e573d1dbd335c58d23c68d8f6f68bff467dfe28d7e7886bbd",
+      "role": "locally trained frozen teacher",
+      "wfm": "contrawimae"
+    },
+    {
+      "file": "checkpoints/teachers/lwm.pt",
+      "bytes": 2471445,
+      "sha256": "aff5e2bb95afb015b238416e054c32e998e066005d1abba8a9733dec5ec4c0b4",
+      "role": "locally trained frozen teacher",
+      "wfm": "lwm"
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "45ba20a56e9ab94791f6fd3640326bab7012138cd279aa373c17a2930bdb77de",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/coarse_teacher_n2048.pt",
+      "bytes": 664079,
+      "sha256": "0e079d2956e37f8038f025d33de4d8b47fb1bb6c4d8a98814d27fd9d651abe8c",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "6aab66c5e11c872c1a6911c0c141e2d5367d9364af00b9d7c19533ed3ea6e0df",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "e3a8a9070b5a7d56abf8631aaad49bb5bf608229c02e0240d4640dd1b818c0a4",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "b425fe435f48c5bd2c17983e2d281cc503bab8b7e506c46825e6605cc32276b3",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/lora_teacher_n2048.pt",
+      "bytes": 935852,
+      "sha256": "4c9fbfda775f1fb84c10bc8552decfa26f79a0418f2e6056f691bb894afed31f",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2026/full_transfer_n2048.pt",
+      "bytes": 5741087,
+      "sha256": "70256a3a1bf67be249802fdbcc9c4ca95e23cb8ab3828714cfbcaf8e04a2ccc4",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2026,
+      "method": "full_transfer",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "680b5d84e00b3505a40c3c445e600ba5761f0b72473d106fdc913e9aa8a9df5d",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/coarse_teacher_n2048.pt",
+      "bytes": 664079,
+      "sha256": "ab7f531f2d8e185e149680441b9313391d20d45112ee29f8cece6349c307df70",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "0756a2ee682adb23d8f558713211b3a960dc396306e1603aa6f3ca5c389cddfb",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "b26f8ee5dd02f9a221e760afc66dde5b64495f82e5c378b36226448fcd74417d",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "a434570295792816db47fc4be5ba16616d2baec1a52b4a376a8be0123de51eac",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/lora_teacher_n2048.pt",
+      "bytes": 935852,
+      "sha256": "e6b683166441a07a5308711743afe517579449eac96b1e61d6102a4beb0eab10",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2027/full_transfer_n2048.pt",
+      "bytes": 5741087,
+      "sha256": "36d47dc4fa385e159c9b3e57163785578f6db1723e45980fc28f0f05f6a502bf",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2027,
+      "method": "full_transfer",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "99884952d9505c1e13782dc0d16790cafeee82225014313d3cd46ef1396c0484",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/coarse_teacher_n2048.pt",
+      "bytes": 664079,
+      "sha256": "9a69c710e7bd5e239a0639dd5facc8abd7800b19998df146c0d01db13d31142b",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "5eefe35d5648413ab50dda594a1ae53e03e91b16a67da0b025ca80bda6547754",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "42614cd047ff1a46352debff8b0709896ccf347a9b8130125917e5c2d60d57a3",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "2982b5f6d5e19727251aba93b289faab6feb448cfa1fe60b599908b3a267ae9a",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/lora_teacher_n2048.pt",
+      "bytes": 935852,
+      "sha256": "b58425701dbcc30a54926233b20186cd05ea554fb7b38bdefd896014b66464a9",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/contrawimae/seed2028/full_transfer_n2048.pt",
+      "bytes": 5741087,
+      "sha256": "76760d4a8367f746a1777c45cbe24b328e5a15a9edea8c1f340fa8bd1aea270a",
+      "role": "evaluation case",
+      "wfm": "contrawimae",
+      "seed": 2028,
+      "method": "full_transfer",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "60efd724573ba6c931d22dd7f5c9564e85e225fca0ed68dbe6376946d4830b48",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/coarse_teacher_n2048.pt",
+      "bytes": 97859,
+      "sha256": "7792a920c2dfa69beb0d234e1a5eb4286b8b0d99c8bef1dad1527ef6c0b199e0",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "c89aa41476e84b631fb80927e2513b72d4f86882ea6e6ad74632e1da80227d64",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "d5283d1bfbadbbebd0a43cce1a13ff59568b1733572515e438a8292aa39d1dec",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "c724090df492223e5c2707570f3ec2df175a2ce83a391c3c622b29db36d5d0b3",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/lora_teacher_n2048.pt",
+      "bytes": 516110,
+      "sha256": "9264d367c1d75c36696f8f9c186328f51f1f3ed864f6936271c6153023665f3e",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2026/full_transfer_n2048.pt",
+      "bytes": 7487807,
+      "sha256": "32e7358b915ad9d155f70ae48422d927955d182ffa1e793daa68a93cfbc4f87e",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2026,
+      "method": "full_transfer",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "b2cbdd61844db7b549ca341337d362745102c7418adebe588b7264043a58a5a3",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/coarse_teacher_n2048.pt",
+      "bytes": 97859,
+      "sha256": "0c7f57cf3a367c1d249fc66b7fb39754aedbfd58d789831a4c36e75b2884e62c",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "39de88cc2de7a318ab8a9cf7cda8bbe4f0e38fb0f6e4d042b255b25d10aa864f",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "dce10f3735be56a7531ff6e99d471d72838f5be5b4608ed2289ee59edf24af06",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "6a6cc5603192cb3582c178feda0e5d9dd311bdc0a45dad80c5fa3a0ac7a518d7",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/lora_teacher_n2048.pt",
+      "bytes": 516110,
+      "sha256": "35153968e23d7f9c0b3a9a679d98580d8e493f1c57496f88e3d8c84ee5c8e1f3",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2027/full_transfer_n2048.pt",
+      "bytes": 7487807,
+      "sha256": "aa4fcf2d9fdd904f833d6f8ff191c79bfc64fc0f1df26e9f4ec4c4838f9ce3e4",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2027,
+      "method": "full_transfer",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/mse_csi_n2048.pt",
+      "bytes": 680961,
+      "sha256": "ef568b979a2ee44c3cadb2f92d4aea0adbe5739550bccc546006d320dd82bf72",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "mse_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/coarse_teacher_n2048.pt",
+      "bytes": 97859,
+      "sha256": "f25dfdf9018c326ae88f94e9fd300f6384f394014cae907163d0ccd4dc1c4132",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "coarse_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/pilot_only_csi_n2048.pt",
+      "bytes": 681501,
+      "sha256": "5ec37198f09b436aea18e9892159207408d22f84efd80cb993f5b699ad76a2e5",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "pilot_only_csi",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/feature_mse_only_n2048.pt",
+      "bytes": 681701,
+      "sha256": "d0f67e414cb9aa16d9266a746245809600032f4121387ed78d48fafe89f649f6",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "feature_mse_only",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/perfect_teacher_n2048.pt",
+      "bytes": 74972,
+      "sha256": "f9f878ddd87a685f6006144d656d1a19eb27c916f7c681a2916ff94ce9cdc1b4",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "perfect_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/lora_teacher_n2048.pt",
+      "bytes": 516110,
+      "sha256": "036d7e4b4f9d61916b0d14e03dd9cd2e9bde917cf2f93685f91884a1662dbf8d",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "lora_teacher",
+      "samples": 2048
+    },
+    {
+      "file": "checkpoints/cases/lwm/seed2028/full_transfer_n2048.pt",
+      "bytes": 7487807,
+      "sha256": "da20cf03615773ee4c321c2ada3e6670abc00a6d4d41de7300a69e93b6b9c6ec",
+      "role": "evaluation case",
+      "wfm": "lwm",
+      "seed": 2028,
+      "method": "full_transfer",
+      "samples": 2048
+    }
+  ]
+}

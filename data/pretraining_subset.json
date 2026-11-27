@@ -1,0 +1,75 @@
+{
+  "dataset_repo": "BerkIGuler/ContraWiMAEDataset",
+  "split_seed": 42,
+  "total_users": 511725,
+  "files": [
+    {
+      "path": "sub6/pretrain/asu_campus_3p5_bs000.npz",
+      "sha256": "cbb66f86a614b869e791c9aac3f3c8bf7cc0eaeb83823a3954615701610a66e4"
+    },
+    {
+      "path": "sub6/pretrain/boston5g_3p5_bs000.npz",
+      "sha256": "3deb086be4fe4c97c8ab836fffa65d001196694025cd6f90ab0e19b9d04464d4"
+    },
+    {
+      "path": "sub6/pretrain/boston5g_3p5_bs001.npz",
+      "sha256": "7b99633b0525f3201465ce20723ff8b1d74d30e7a18f18b56cdac3392874c0a8"
+    },
+    {
+      "path": "sub6/pretrain/city_0_newyork_3p5_bs000.npz",
+      "sha256": "13b4e503fddc7c128fade7fd9a25a9052c01473a94db403bbc75d3d9cf5dec27"
+    },
+    {
+      "path": "sub6/pretrain/city_16_sanfrancisco_3p5_bs000.npz",
+      "sha256": "3549f52feda96b2a79867daf794081244e20c2b2f1261118916f31efe402c7d9"
+    },
+    {
+      "path": "sub6/pretrain/city_17_seattle_3p5_bs000.npz",
+      "sha256": "c129d0f3b50403922ac9f62a795dd5292cec8cf860e6d8a2a829db566abddd47"
+    },
+    {
+      "path": "sub6/pretrain/city_1_losangeles_3p5_bs000.npz",
+      "sha256": "4f8de297c1304ca90bac259a19972bc9cee27cb451ee25f6df29143e7535c210"
+    },
+    {
+      "path": "sub6/pretrain/city_21_taito_city_3p5_bs000.npz",
+      "sha256": "89b3d7d098d64ef42151e3a1985494c19b82e0ed80665e4940aa0d830bca2262"
+    },
+    {
+      "path": "sub6/pretrain/city_22_rome_3p5_bs000.npz",
+      "sha256": "5d8c69ec77f5491fcfece20768df3a9736dd71f12d93e76606a3ac6198fd917e"
+    },
+    {
+      "path": "sub6/pretrain/city_23_beijing_3p5_bs000.npz",
+      "sha256": "705d111300a3dc4cb07fbcae35a726624d56c8451a5a55641c3ae021067c7e7f"
+    },
+    {
+      "path": "sub6/pretrain/city_24_cairo_3p5_bs000.npz",
+      "sha256": "2199d292f88ff3f47c73cd2cf3e82156712cd872afa9a69ab0ba188b32091176"
+    },
+    {
+      "path": "sub6/pretrain/city_26_dubai_3p5_bs000.npz",
+      "sha256": "a0b53062f7d630016ea126088ef30085237e6eb9de9ab6a31dcfb3ff85b49b6e"
+    },
+    {
+      "path": "sub6/pretrain/city_2_chicago_3p5_bs000.npz",
+      "sha256": "3dc45ea5c3606da6f2bc58ff9306f161a3ec8717b8b71a6c7cb505eb02f88fb3"
+    },
+    {
+      "path": "sub6/pretrain/city_44_lisboa_3p5_bs000.npz",
+      "sha256": "3fa0a47b51d202f184cb6f29e9c44acbec38c85718904a03af3d109261a26beb"
+    },
+    {
+      "path": "sub6/pretrain/city_50_edinburgh_3p5_bs000.npz",
+      "sha256": "196e4b711dc243ac5ae7896e3a349fcb76bb7b20c5cc24a7ae0fc14042b2ccac"
+    },
+    {
+      "path": "sub6/pretrain/city_5_philadelphia_3p5_bs001.npz",
+      "sha256": "cf9e493882f644f6d1c33ec6df836b0d5914a6b7c71345601d865af71cd22306"
+    },
+    {
+      "path": "sub6/pretrain/city_66_bruxelles_3p5_bs000.npz",
+      "sha256": "7a8ee55d5b51856b225eea30fe212d8a8acaa76c7c42c18ddcb0ca6b7c7a2053"
+    }
+  ]
+}
